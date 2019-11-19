@@ -34,7 +34,8 @@ public class GoofyNames {
 			// 6. ADD this String (containing 1 char) to the goofyName String
 			goofyName = goofyName + nextChar;
 
-			// 7. Use pop-up to show user their Goofy name
+			// 7. Use popup to show user their Goofy name
+			JOptionPane.showMessageDialog(null, goofyName);
 		}
 		System.out.println("this is the name " + goofyName);
 	}
